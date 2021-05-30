@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: lower-greek;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  Cambria , sans-serif;
+    font-size: 16px;
+    background-color: rgb(227, 233, 223);
+    width: 80%;
+    line-height: 2.4em;
+}
+
+h1 {
+    font-family: "Colonna MT" , sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(108, 129, 97);
+    border: black 1px solid;
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    padding: ;
+    font-family: "Tempus Sans ITC", sans-serif;
+    font-size: 18px;
+    border-top: thin;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 aut;
+    padding: 0 ;
+    width: 100%;
+    
+}
+
+nav ul li{
+    border: black 1px solid;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: thin;
+    border-top: thin;
+    border-left: thin;
+    color: white;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;}
+    a:visited {
+    color: white;}
+    a:hover {
+    color:rgb(150,150 , 150);
+    text-decoration: none;}
+    a:active {
+    color: white;
+    font-size: 18px;
+    
+}
+
+.header{
+    font-size: 28px;
+}
+
+#nav-head {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: black 1px solid;
+    width: 100%;
+    height: 70px;
+    border-right: thin;
+    border-left: thin;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#doc-text {
+    margin-left: 37%;
+    margin-right: 15%px;
+    width: 80%;
+}
+
+#header-img {
+    height: 36%;
+    width: 57%;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: px;
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: ;
+    display: block;
+}
+
+#titans-img {
+    margin: 0px auto ;
+    width: 57% ;
+    height: 70%;
+    display: block;
+  }
+
+#org-titans-img{
+    margin: 0px auto ;
+    width: 68% ;
+    height: 85%;
+    display: block;
+}
+
+#demigods-img {
+    margin: 0px auto ;
+    width: 75% ;
+    height: 90%;
+    display: block;  
+}
+
+#theseus{
+    margin: 0px auto ;
+    width:  30%;
+    height: 50%;
+    display: block;  
+}
+
+
+#titans-cpt {
+    margin: 10px auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    nav ul li {
+      display: inline-block;
+      font-size: 14px;
+      
+    }
+    body {
+        background-color: rgb(227, 233, 223);
+    }
+
+    #header-img {
+        height: 18%;
+        width: 45%;
+    }
+
+    #nav-head {
+        font-size: 20px;
+        height: 50px;
+        padding: 0;
+        padding-bottom: 0;
+        margin-bottom: ;
+  }
+
+
+  
+}

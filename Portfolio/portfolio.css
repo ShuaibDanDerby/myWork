@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+}
+
+nav {
+    background: #413e5a;
+    height: 60px;
+    width: 100%;
+    border-width: 0.5px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-top-style:solid ;
+    border-color: rgb(150, 150, 150);
+    position: fixed;
+    z-index: 10;
+    margin: 0;
+    border: thin;
+}
+
+nav ul {
+    float: right;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 60px;
+    
+    padding: 0 5px;
+    
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 10px;
+    padding-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;}
+    a:visited {
+    color: white;}
+    a:hover {
+    color:rgb(153, 153, 177);
+    text-decoration: none;}
+    a:active {
+    color: whiteblack;
+    font-size: 18px;
+    
+}
+
+#welcome-section {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-color: #1d1924;
+    color: white;
+    text-align: center;
+}
+
+
+.grid {
+    display: grid;
+    border: 1px blue thin;
+    width: 100%;
+    height: 100vh;
+    grid-template: repeat(2, 41vh) / repeat(2, 37vw);
+    grid-gap: 50px 30px;
+    padding: 2vw;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(29, 25, 36);
+    
+  }
+  
+  .box {  
+    color: black;
+    border: 1px black thin;
+  }
+  
+  .grid-img{
+    width: 37vw;
+    height: 41vh;
+  }
+
+#info {
+    
+    
+    margin-top: 120px;
+}
+
+#greeting {
+
+    vertical-align: middle;
+    font-size: 60px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#profile-pic {
+    height: 35%;
+    width: 20%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+}
+
+#name {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 55px;
+}
+
+#profession {
+    
+    font-size: 35px;
+    font-family:  "Bell MT", sans-serif ;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+#projects {
+    background-color: rgb(29, 25, 36);;
+    width: 100%;
+    height: 120vh;
+
+}
+
+#cert {
+    background-color: rgb(29, 25, 36);;
+}
+
+#profile {
+    background-color: rgb(29, 25, 36);
+    color: white;
+    height: 50vh;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+#profl-txt {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+#profile-head {
+    font-size: 48px;
+    
+}
+
+#profile-mini-head {
+    font-size: 22px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    word-spacing: 2.4em;
+    line-height: 60px;   
+    padding: 15px;
+    margin: 0 auto;
+    
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;}
+    a:visited {
+    color: white;}
+    a:hover {
+    color:rgb(153, 153, 177);
+    text-decoration: none;}
+    a:active {
+    color: whiteblack;
+    font-size: 15px;
+    
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(29, 25, 36) ;
+    color: white;
+    border: solid 2px #538df1;
+    border-bottom: thin;
+    border-left: thin;
+    border-right: thin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+#footer {
+    border: white 2px thick;
+    display: table;
+}
+
+#copyright {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sec-head {
+    padding: 40px;
+    text-align: center;
+}
+
+.project-tile {
+    height: 70%;
+    width: 70%;
+    background-color: rgb(119, 165, 165);
+    border: solid 1px black;
+    display: block;
+    margin: 0 auto;
+}
+
+.proj-img {
+    height: 50%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.cert-tile {
+    height: 70%;
+    width: 70%;
+    background-color: rgb(99, 145, 145);
+    border: solid 1px black;
+    display: block;
+    margin: 0 auto;
+}
+
+.cert-img {
+    height: 50%;
+    width: 70%; 
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-family: 'Calisto MT', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+}
